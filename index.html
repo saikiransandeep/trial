@@ -4,7 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sai's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f8fb;
+            color: #222;
+        }
+
+        header {
+            background: #3949ab;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(57,73,171,0.08);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #ffd54f;
+        }
+
+        .hero {
+            background: linear-gradient(90deg, #7986cb 30%, #e8eaf6 100%);
+            padding: 3rem 1rem 2rem 1rem;
+            text-align: center;
+        }
+
+        .hero h2 {
+            margin: 0 0 1rem 0;
+            font-size: 2rem;
+            color: #283593;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta {
+            display: inline-block;
+            background: #3949ab;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(57,73,171,0.10);
+            transition: background 0.2s;
+        }
+
+        .cta:hover {
+            background: #283593;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(57,73,171,0.06);
+        }
+
+        section h2 {
+            color: #3949ab;
+            margin-top: 0;
+        }
+
+        .projects ul {
+            padding-left: 1.2rem;
+        }
+
+        .projects li {
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        footer {
+            text-align: center;
+            color: #888;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+            background: #eceff1;
+            border-top: 1px solid #cfd8dc;
+        }
+
+        footer a {
+            color: #3949ab;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
