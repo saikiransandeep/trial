@@ -3,61 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f4f6f8;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #4f8cff;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-        }
-        footer {
-            text-align: center;
-            color: #888;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-        a {
-            color: #4f8cff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Sai's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>Your awesome tagline goes here!</p>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <h2>About</h2>
-        <a href="platypus.html">platypus</a>
-        <p>
-            This is a simple HTML starter template. You can edit this file to add your own content, styles, and features.
-        </p>
-        <h2>Contact</h2>
-        <p>
-            Have questions? <a href="mailto:your@email.com">Email me</a>.
-        </p>
-    </main>
+
+    <section class="hero">
+        <h2>Hello! I'm Sai</h2>
+        <p>A passionate coder with expertise in web development, Java, and AI applications.</p>
+        <a href="#" class="cta">View My Work</a>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science engineer, constantly improving my coding and problem-solving skills.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>AI-Powered Resume Analyzer</li>
+            <li>Python-Based Video Downloader</li>
+            <li>Web Development Projects</li>
+        </ul>
+    </section>
+
     <footer>
-        &copy; 2025 Your Name. All rights reserved.
+        <p>&copy; 2025 Sai | Find me on <a href="#">GitHub</a> and <a href="#">LinkedIn</a></p>
     </footer>
 </body>
 </html>
